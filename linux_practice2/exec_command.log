@@ -1,0 +1,166 @@
+exit
+cd /vagrant
+mkdir server_lesson && cd server_lesson
+git init
+touch first.txt
+mkdir server_lesson/linux_practice/public
+mkdir -p server_lesson/linux_practice/public
+pwd
+ls
+ls /server_lesson
+ls /
+ls /vagrant/server_lesson/
+ls /vagrant/server_lesson/server_lesson
+ls /vagrant/server_lesson/server_lesson/linux_practice/
+ls server_lesson server_lesson/linux_practice
+git status
+git add .
+git status
+git commit -m 'first commit'
+git remote add origin https://github.com/YuiseiMaruyama/server_lesson.git
+git remote -v
+git push origin master
+ls
+cd /vagrant
+touch server_lesson/linux_practice/public/index.php
+ls server_lesson server_lesson/linux_practice
+ls server_lesson /server_lesson/linux_practice
+cd vagrant
+cd /vagrant
+ls server_lesson server_lesson/linux_practice
+ls
+cd server_lesson/
+ls server_lesson server_lesson/linux_practice
+cd /vagrant
+mkdir -p server_lesson/linux_practice/public
+ls
+ls server_lesson server_lesson/linux_practice
+rm /server_lesson
+ls
+ls server_lesson/
+cd server_lesson/
+ls
+rm server_lesson/
+rm -r server_lesson/
+lss
+ls
+ls linux_practice/
+cd /vagrant
+ls
+touch server_lesson/linux_practice/public/index.php
+ls server_lesson/linux_practice/public/
+cd /vagrant/server_lesson && lss
+cd /vagrant/server_lesson && ls
+ls
+cd /vagrant/server_lesson/linux_practice/public/
+ls
+cp index.php index_bk.php
+ls
+cd /vagrant/server_lesson/linux_practice/
+ls
+cp -r public tmp
+ls
+ls ./ public tmp
+cd /vagrant/
+mv server_lesson/linux_practice/ server_lesson/linux_practice1
+ls /vagrant/server_lesson
+mkdir linux_practice2 linux_practice3
+ls
+mv ./linux_practice2 ./server_lesson
+ls
+cd /vagrant/server_lesson/linux_practicetemp/
+cd /vagrant/server_lesson/linux_practice/temp/
+cd /vagrant/server_lesson/linux_practice1/tmp/
+rm *_bk.php
+ls
+cd /vagrant
+rm server_lesson/first.txt 
+ls
+rm -r linux_practice3/
+ls server_lesson/
+cd /vagrant/server_lesson/
+echo '# サ�Linuxプラクティス' > READEME.md
+ls
+ls /vagrant/server_lesson/
+echo 'Linuxプラクティス' >> README.md
+echo '-----------------' >> README.md
+cat READEME.md
+cat README.md
+ls
+rm READEME.md
+ls
+echo '# サーバレッスン' > README.md
+cat README.md
+ls
+cat README.md
+rm EADME.md
+rm README.md
+ls
+cd /vagrant/server_lesson
+echo '# サーバレッスン' > README.md
+echo 'Linuxプラクティス' >> README.md
+echo '-----------------' >> README.md
+cat README.md
+cd /vagrant/server_lesson
+vi README.md 
+cat README.md
+tree
+ls
+ls linux_practice1
+ls linux_practice1/public
+ls linux_practice1/tmp
+git add .
+git status
+git rm first.txt
+git status
+git add .
+git commit -m 'first commit'
+git push origin master
+vi README.md 
+git add .
+git commit -m 'README.mdの内容変更'
+git push origin master
+ls
+mkdir linux_practice2/documents
+ls linux_practice2/documents
+ls linux_practice2
+mkdir linux_practice2/trash
+cd linux_practice2/dociment
+cd linux_practice2/dociments
+ls
+cd linux_practice2
+ls
+cd documents/
+touch gizumo_{01..50}.md
+lss
+ls
+ls ./
+cd ..
+ls
+./documents/gizumo{20..40}.md ./trash
+./documents/gizumo_{20..40}.md ./trash
+mv ./documents/gizumo_{20..40}.md ./trash
+cd trash/
+ls
+cd ..
+ls
+touch .gitignore
+ls
+ls -a
+vi .gitignore
+ls
+vi .gitignore
+ls
+ls trash
+vi .gitignore
+history -300
+history -3
+history
+history -300
+history -300 -w exec_command.log
+hisstory -3
+history -3
+history -20
+history 300
+history 300 -w exec_command.log
+history -w exec_command.log
